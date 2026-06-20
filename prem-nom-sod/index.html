@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-key="web_title">เปรมนมสด - นมโคแท้ 100% และขนมปังปิ้งเตาถ่าน</title>
+    <meta name="description" content="เปรมนมสด นมโคสดแท้ 100% หอม มัน กลมกล่อม เสิร์ฟคู่ขนมปังปิ้งเตาถ่านกรอบนอกนุ่มในสไตล์ดั้งเดิม">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Kanit:wght@300;400;500;600;700&family=Mitr:wght@300;400;500;600&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Decorative Floating Orbs for Premium Background Visuals -->
+    <div class="floating-orb orb-1"></div>
+    <div class="floating-orb orb-2"></div>
+    <div class="floating-orb orb-3"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar glass-effect">
+        <div class="nav-container">
+            <a href="#" class="brand">
+                <img src="D:/สอน AI/ช่วงบ่าย/02 ข้อมูล DashBoard/01 ข้อมูล landing page/ร้านนม/logo.png" alt="เปรมนมสด Logo" class="nav-logo" onerror="this.src='../logo.png'">
+                <span class="brand-name" data-key="nav_brand">เปรมนมสด</span>
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active" data-key="nav_home">หน้าแรก</a>
+                <a href="#about" class="nav-link" data-key="nav_about">เกี่ยวกับเรา</a>
+                <a href="#menu" class="nav-link" data-key="nav_menu">เมนูแนะนำ</a>
+                <a href="#gallery" class="nav-link" data-key="nav_gallery">บรรยากาศร้าน</a>
+                <a href="#contact" class="nav-link" data-key="nav_contact">ติดต่อเรา</a>
+            </nav>
+
+            <div class="nav-actions">
+                <!-- Language Switcher -->
+                <div class="lang-switch">
+                    <button class="lang-btn active" id="langTH">TH</button>
+                    <span class="lang-divider">|</span>
+                    <button class="lang-btn" id="langZH">中文</button>
+                </div>
+
+                <!-- Cart Indicator -->
+                <div class="cart-trigger" id="cartTrigger" title="ตะกร้าสินค้า / Shopping Cart">
+                    <i class="fa-solid fa-shopping-basket"></i>
+                    <span class="cart-badge" id="cartBadge">0</span>
+                </div>
+
+                <!-- Hamburger Mobile Menu -->
+                <div class="menu-toggle" id="menuToggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-logo-wrapper">
+                    <div class="hero-logo-circle">
+                        <img src="D:/สอน AI/ช่วงบ่าย/02 ข้อมูล DashBoard/01 ข้อมูล landing page/ร้านนม/logo.png" alt="เปรมนมสด" class="hero-logo" onerror="this.src='../logo.png'">
+                    </div>
+                </div>
+                <div class="hero-content">
+                    <h1 class="hero-title" data-key="hero_title">เปรมนมสด</h1>
+                    <p class="hero-subtitle" data-key="hero_subtitle">นมโคแท้ 100% หอม มัน กลมกล่อม เสิร์ฟพร้อมขนมปังปิ้งเตาถ่านหอมกรุ่น</p>
+                    <div class="hero-cta">
+                        <a href="#menu" class="btn btn-primary" data-key="hero_btn">
+                            <i class="fa-solid fa-mug-hot"></i> ดูเมนูร้าน
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="about-section">
+            <div class="section-container">
+                <div class="about-grid">
+                    <div class="about-image-wrapper">
+                        <!-- Using one of the gallery images for styling the Story section -->
+                        <img src="D:/สอน AI/ช่วงบ่าย/02 ข้อมูล DashBoard/01 ข้อมูล landing page/ร้านนม/บรรยากาศในร้าน/493940943_2527267730945907_8741123150059989016_n.jpg" alt="บรรยากาศร้าน เปรมนมสด" class="about-img glass-frame" onerror="this.src='../บรรยากาศในร้าน/493940943_2527267730945907_8741123150059989016_n.jpg'">
+                        <div class="badge-experience glass-effect">
+                            <span class="badge-num">100%</span>
+                            <span class="badge-txt" data-key="about_badge">นมโคสดแท้</span>
+                        </div>
+                    </div>
+                    <div class="about-info">
+                        <div class="section-header">
+                            <span class="section-tag" data-key="about_tag">เรื่องราวของร้าน</span>
+                            <h2 class="section-title" data-key="about_title">ความใส่ใจในทุกหยดและทุกแผ่น</h2>
+                        </div>
+                        <p class="about-description" data-key="about_desc_1">
+                            เราเริ่มก่อตั้งร้านด้วยความตั้งใจที่จะมอบรสชาติความสุขที่แท้จริงจาก "นมโคแท้ 100% เกรดพรีเมียม" ที่ผ่านกระบวนการต้มอย่างพิถีพิถันจนได้ความหอม มัน และเข้มข้นที่เป็นเอกลักษณ์เฉพาะตัว 
+                        </p>
+                        <p class="about-description" data-key="about_desc_2">
+                            ไม่เพียงแค่นมสดเท่านั้น ขนมปังปิ้งเตาถ่านแบบโบราณของเราก็ใช้เตาถ่านในการปิ้งแบบดั้งเดิม ทำให้ตัวขนมปังมีความกรอบนอก นุ่มใน และมีกลิ่นหอมกรุ่นควันไฟจางๆ ทานคู่กับสังขยาใบเตยโฮมเมดสูตรคุณแม่ รับรองว่าคุณจะตกหลุมรักในทันที
+                        </p>
+                        <div class="about-features">
+                            <div class="feat-item">
+                                <div class="feat-icon pink-bg"><i class="fa-solid fa-cow"></i></div>
+                                <div class="feat-content">
+                                    <h4 data-key="about_feat_1_title">นมโคสดแท้ 100%</h4>
+                                    <p data-key="about_feat_1_desc">ส่งตรงจากฟาร์มท้องถิ่นทุกวัน ปราศจากสารเคมีเจือปน</p>
+                                </div>
+                            </div>
+                            <div class="feat-item">
+                                <div class="feat-icon blue-bg"><i class="fa-solid fa-fire"></i></div>
+                                <div class="feat-content">
+                                    <h4 data-key="about_feat_2_title">ปิ้งเตาถ่านดั้งเดิม</h4>
+                                    <p data-key="about_feat_2_desc">หอมกลิ่นไหม้เตาถ่านอ่อนๆ กรอบนอกนุ่มในฟินสุดๆ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Menu Section -->
+        <section id="menu" class="menu-section">
+            <div class="section-container">
+                <div class="section-header center">
+                    <span class="section-tag" data-key="menu_tag">เมนูแนะนำ</span>
+                    <h2 class="section-title" data-key="menu_title">ลิ้มลองความอร่อยยอดนิยม</h2>
+                    <p class="section-subtitle" data-key="menu_subtitle">เลือกสรรความอร่อยที่คุณชื่นชอบลงตะกร้า แล้วสั่งจำลองได้เลยทันที</p>
+                </div>
+
+                <!-- Menu Tabs -->
+                <div class="menu-tabs">
+                    <button class="tab-btn active" data-filter="all" data-key="menu_tab_all">ทั้งหมด</button>
+                    <button class="tab-btn" data-filter="milk" data-key="menu_tab_milk">นมสด</button>
+                    <button class="tab-btn" data-filter="toast" data-key="menu_tab_toast">ขนมปังปิ้ง</button>
+                </div>
+
+                <!-- Menu Cards Grid -->
+                <div class="menu-grid" id="menuGrid">
+                    <!-- Cards will be dynamically inserted here via app.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery-section">
+            <div class="section-container">
+                <div class="section-header center">
+                    <span class="section-tag" data-key="gallery_tag">บรรยากาศร้าน</span>
+                    <h2 class="section-title" data-key="gallery_title">ความอบอุ่นใน "เปรมนมสด"</h2>
+                    <p class="section-subtitle" data-key="gallery_subtitle">เพลิดเพลินกับมุมถ่ายรูปสวยๆ และบรรยากาศที่แสนเป็นกันเองของเรา</p>
+                </div>
+
+                <!-- Atmosphere Grid -->
+                <div class="gallery-grid" id="galleryGrid">
+                    <!-- Images will be inserted here with Lightbox activation capability -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="section-container">
+                <div class="contact-grid">
+                    <div class="contact-info-panel glass-effect">
+                        <h3 class="contact-header" data-key="contact_header">เปรมนมสด</h3>
+                        <p class="contact-sub" data-key="contact_sub">ความสุขง่ายๆ เสิร์ฟในแก้วนมและขนมปังร้อนๆ</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fa-solid fa-map-location-dot"></i>
+                                <div>
+                                    <h5 data-key="contact_address_title">ที่อยู่ร้าน</h5>
+                                    <p data-key="contact_address_desc">123 ถนนสุขุมวิท แขวงคลองเตย เขตคลองเตย กรุงเทพมหานคร 10110</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fa-solid fa-clock"></i>
+                                <div>
+                                    <h5 data-key="contact_hours_title">เวลาเปิดทำการ</h5>
+                                    <p data-key="contact_hours_desc">เปิดบริการทุกวัน 16:30 น. - 23:30 น.</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fa-solid fa-phone"></i>
+                                <div>
+                                    <h5 data-key="contact_phone_title">เบอร์โทรศัพท์</h5>
+                                    <p>089-123-4567</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="#" class="social-icon fb"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon ig"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="social-icon line"><i class="fa-brands fa-line"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-panel glass-effect">
+                        <h4 data-key="feedback_title">ส่งข้อความหาเรา</h4>
+                        <form id="contactForm" onsubmit="event.preventDefault(); alert('ส่งข้อความเรียบร้อยแล้ว / Message Sent successfully');">
+                            <div class="form-group">
+                                <label for="name" data-key="form_name">ชื่อของคุณ</label>
+                                <input type="text" id="name" required placeholder="ป้อนชื่อของคุณ">
+                            </div>
+                            <div class="form-group">
+                                <label for="email" data-key="form_email">อีเมล / เบอร์โทร</label>
+                                <input type="text" id="email" required placeholder="ป้อนอีเมลหรือเบอร์โทรของคุณ">
+                            </div>
+                            <div class="form-group">
+                                <label for="message" data-key="form_msg">ข้อความ</label>
+                                <textarea id="message" rows="4" required placeholder="พิมพ์ข้อความของคุณที่นี่..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-secondary btn-block" data-key="form_btn">ส่งข้อความ</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2026 เปรมนมสด Prem Nom Sod. All rights reserved.</p>
+            <p class="designer" data-key="footer_design">ออกแบบด้วยความรักพรีเมียม 💖 เพื่อคนรักนมสด</p>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Slide-out Drawer -->
+    <div class="cart-drawer-overlay" id="cartOverlay"></div>
+    <div class="cart-drawer glass-effect" id="cartDrawer">
+        <div class="cart-drawer-header">
+            <h3>
+                <i class="fa-solid fa-shopping-basket"></i> 
+                <span data-key="cart_title">ตะกร้าของคุณ</span>
+            </h3>
+            <button class="cart-close" id="cartClose"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        
+        <div class="cart-items-container" id="cartItemsList">
+            <!-- Dynamically populated from JS -->
+            <div class="empty-cart-message">
+                <i class="fa-solid fa-box-open"></i>
+                <p data-key="cart_empty">ยังไม่มีสินค้าในตะกร้า</p>
+            </div>
+        </div>
+
+        <div class="cart-drawer-footer">
+            <div class="cart-summary-row">
+                <span class="summary-label" data-key="cart_total">ราคารวมทั้งสิ้น:</span>
+                <span class="summary-value" id="cartTotalSum">฿0</span>
+            </div>
+            <button class="btn btn-primary btn-block btn-checkout" id="checkoutBtn" disabled data-key="cart_checkout">
+                ส่งรายการสั่งซื้อจำลอง
+            </button>
+        </div>
+    </div>
+
+    <!-- Lightbox Modal for Gallery Images -->
+    <div class="lightbox" id="lightboxModal">
+        <span class="lightbox-close" id="lightboxClose">&times;</span>
+        <div class="lightbox-content-wrapper">
+            <img class="lightbox-img" id="lightboxImage" src="" alt="ขยายภาพ">
+            <div class="lightbox-caption" id="lightboxCaption"></div>
+        </div>
+    </div>
+
+    <!-- Checkout Success Dialog Modal -->
+    <div class="checkout-modal-overlay" id="checkoutSuccessOverlay">
+        <div class="checkout-success-modal glass-effect">
+            <div class="success-icon-wrapper">
+                <div class="success-icon-ring"></div>
+                <i class="fa-solid fa-check success-check-icon"></i>
+            </div>
+            <h2 data-key="success_title">สั่งซื้อจำลองสำเร็จ!</h2>
+            <p class="success-message" data-key="success_msg">ระบบได้รับรายการจำลองเรียบร้อยแล้ว! นมสดแท้และขนมปังร้อนๆ กำลังเตรียมเสิร์ฟในจินตนาการของคุณ</p>
+            
+            <div class="order-summary-box">
+                <h4 data-key="success_summary_title">รายละเอียดคำสั่งซื้อ</h4>
+                <div id="orderItemsSummary">
+                    <!-- Populated via Javascript -->
+                </div>
+                <div class="order-summary-total">
+                    <span data-key="cart_total">ราคารวมทั้งสิ้น:</span>
+                    <strong id="successTotalSum">฿0</strong>
+                </div>
+            </div>
+
+            <button class="btn btn-primary" id="successCloseBtn" data-key="success_btn">กลับไปหน้าร้าน</button>
+        </div>
+    </div>
+
+    <!-- App JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
